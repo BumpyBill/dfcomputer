@@ -11,3 +11,4 @@ A Computer Created In The Minecraft Server DiamondFire
 ### UPCODE
 
 - [Registries](/docs/registry)
+- [ALu](/docs/alu)

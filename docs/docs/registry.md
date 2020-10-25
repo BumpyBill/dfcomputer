@@ -1,12 +1,12 @@
 ## Registry
 
-The syntax for the registry UPCODE is:
+The syntax for the registry OPCODE is:
 
 ```
 00000010<# reg1 #><# reg2 #>
 ```
 
-If reg1 is equal to `0000`, the line below will set reg2 to the input.
+If `reg1` is equal to `0000`, the line below will set `reg2` to the input.
 Example:
 
 ```
@@ -14,4 +14,4 @@ Example:
 0000000000000001
 ```
 
-This sets the print registry to binary `1`. If reg1 does _not_ equal `1000` reg2 will be set to the value of reg1
+This sets the print registry to binary `1`. If `reg1` does _not_ equal `1000` `reg2` will be set to the value of `reg1`.

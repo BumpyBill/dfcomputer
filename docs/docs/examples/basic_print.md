@@ -1,6 +1,6 @@
 ## Basic Print
 
-The code for this would be:
+The OPCODE for this would be:
 
 ```
 0000010000000011
