@@ -7,3 +7,7 @@ A Computer Created In The Minecraft Server DiamondFire
 ### Examples
 
 - [Basic Print](/docs/examples/Basic%20Print.md)
+
+### UPCODE
+
+- [Registries](/docs/registry)
