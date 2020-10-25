@@ -14,4 +14,4 @@ Example:
 0000000000000001
 ```
 
-This sets the print registry to binary `1`. If `reg1` does _not_ equal `1000` `reg2` will be set to the value of `reg1`.
+This sets the print registry to binary `1`. If `reg1` does _not_ equal `1000` `reg1` will be set to the value of `reg2`.
