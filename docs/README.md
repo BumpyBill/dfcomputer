@@ -8,7 +8,8 @@ A Computer Created In The Minecraft Server DiamondFire
 
 - [Basic Print](/docs/examples/basic_print)
 
-### UPCODE
+### OPCODE
 
 - [Registries](/docs/registry)
 - [ALU](/docs/alu)
+- [Printing] (/docs/print)
