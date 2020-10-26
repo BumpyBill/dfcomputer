@@ -12,4 +12,4 @@ A Computer Created In The Minecraft Server DiamondFire
 
 - [Registries](/docs/registry)
 - [ALU](/docs/alu)
-- [Printing] (/docs/print)
+- [Printing](/docs/print)
