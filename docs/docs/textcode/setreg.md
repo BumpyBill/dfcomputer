@@ -1,4 +1,4 @@
-##setReg
+## setReg
 
 The setReg command can be used in three ways.
 
