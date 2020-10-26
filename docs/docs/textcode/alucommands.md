@@ -10,3 +10,13 @@ The ALU (Arithmetic and Logic Unit) is the part of the computer that does math. 
 Most of the inner workings of the ALU are taken care of by the three argument commands `add([<# reg1 #>],[<# reg2 #>],[<# reg3 #>])` and `sub([<# reg1 #>],[<# reg2 #>],[<# reg3 #>])`. These will take the value in `reg1` and `reg2`, perform the operation, and store the result in `reg3`. If `reg3` is left out resulting in a two argument command, the output will sit in ALUOut (`0011`).
 
 If you want to make an efficient program (more speed and fewer binary code lines), you may want to access the ALU functions independently. `addRaw` and `subRaw` will simply perform their respective operation on `0001` and `0010` and store it in `0011`. The ALU registers can be accessed with `setReg()`. A shorthand for storing ALU operands is `prepAlu([<# reg1 #>],[<# reg2 #>])`. This sets ALU1 to reg1 and ALU2 to reg2. However, some commands (like `if!()`) use ALU functions within them, so letting the values sit in the ALU registers while other code is running isn't always an option.
+
+### Example
+
+```  
+setReg([0001],{2})
+setReg([0010],{2})
+add([0001],[0010])
+printInt([0011])
+```
+> Output: `4`
