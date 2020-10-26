@@ -6,12 +6,12 @@ The syntax for the registry OPCODE is:
 00000010<# reg1 #><# reg2 #>
 ```
 
-If `reg1` is equal to `0000`, the line below will set `reg2` to the input.
-Example:
+If `reg1` is equal to `0000`, this works as a jump command.
 
 ```
-0000001000000110
-0000000000000001
+0000010000000011
+0000000000000000
+0000001000000111
 ```
 
-This sets the print registry to binary `1`. If `reg1` does _not_ equal `1000` `reg1` will be set to the value of `reg2`.
+This sets the current line to 0, so afer executing the jump command, the computer will start reading from the first line.
