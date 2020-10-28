@@ -34,3 +34,6 @@ This sets the current line to 0, so after executing the jump command, the comput
 | --------------- | ---- |
 | Print           | 0110 |
 | Custom Variable | 0111 |
+| ALU1            | 0001 |
+| ALU2            | 0010 |
+| ALU OUT         | 1000 |
